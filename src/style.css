@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Urbanist', sans-serif !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.saveblog {
+  background-color: rgb(10, 64, 92);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.saveblog:hover {
+  background-color: rgb(255, 193, 0);
+  color: black;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.allblogs {
+  background-color: whitesmoke;
+  padding: 5px;
+  cursor: pointer;
+}
+.carddiv {
+  background-color: rgb(15, 110, 158);
+  width: 50%;
+  padding: 1px;
+
+  margin: 20px;
+  color: white;
+}
+.btnview {
+  cursor: pointer;
+
+  padding: 5px;
+
+  width: 50px;
+  background-color: rgb(255, 193, 0);
+  color: black;
+  border: 2px solid white;
+}
+.blott {
+  margin-left: 5%;
+  cursor: pointer;
+}
+.headerbtn {
+  background-color: rgb(10, 64, 92);
+  color: white;
+  cursor: pointer;
+  cursor: pointer;
+}
+.toolbarClassName {
+  background-color: rgb(15, 110, 158);
+  padding: 10px;
+}
+.editorClassName {
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px grey;
+
+  border: none;
+}
+.inputdata {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgb(155, 152, 152);
+  border: none;
+
+  height: 20px;
+}
+
+@media (max-width: 500px) {
+  .carddiv {
+    background-color: rgb(15, 110, 158);
+    width: 90%;
+
+    color: white;
+  }
+}
